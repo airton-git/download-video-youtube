@@ -2,7 +2,7 @@ from pytubefix import YouTube
 from pytubefix.cli import on_progress
 
 #Recebe a URL do vídeo e faz o download.
-url = "https://youtube.com/watch?v=f4k7mweehI4"
+url = "Digite aqui a URL"
 
 yt = YouTube(url, on_progress_callback=on_progress)
 title = yt.title
